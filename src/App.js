@@ -1,6 +1,8 @@
+import Contact from "./Contact";
 import Agriclture from "./Agriculture";
 import Cards from "./Cards";
 import Education from "./Education";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import Job from "./Job";
 import Navbar from "./Navbar";
@@ -34,11 +36,16 @@ function App() {
                   <Job />
                 </Route>
 
-                <Route>
+                <Route path='/about'>
                   <About />
                 </Route>
 
+                <Route path="/contact">
+                  <Contact />
+                </Route>
+
             </Switch>
+            <Footer />
           </div>
     </Router>
   );

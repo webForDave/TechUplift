@@ -23,6 +23,7 @@ const Navbar = () => {
                 <li className="px-[10px]"><Link to="/">Home</Link></li>
                 <li className="px-[10px]"><Link to="/resources">Resources</Link></li>
                 <li className="px-[10px]"><Link to="/about">About Us</Link></li>
+                <li className="px-[10px]"><Link to="/contact">Contact Us</Link></li>
             </ul>
         </nav>
     );
